@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="?android:attr/colorMultiSelectHighlight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/welcome_to_limkokwing_delivery_online_course"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:src="@drawable/front"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/front_end_web_development_also_known_as_client_side_development_is_the_practice_of_producing_html_css_and_javascript_for_a_website_or_a_wep_application_for_the_user_to_interact_with_them_directly_click_on_the_button_below_to_read_more_about_front_end_web_development"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:text="@string/front_end_web_development" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:src="@drawable/mobile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/mobile_app_development_is_the_process_of_creating_software_applications_that_run_on_mobile_devices_and_a_typical_mobile_application_utilises_a_network_connection_to_work_with_remote_computing_resources"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:text="@string/mobile_app_develpment"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:src="@drawable/data"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:text="@string/a_data_science_is_a_field_of_study_that_combines_domain_expertise_programming_skills_and_knowledge_of_mathematics_and_statistics_to_extract_meaningful_insights_from_data_data_science_practitioners_apply_machine_learning_algorithms_to_numbers_text_images_videos_audios_and_more_to_produce_artificial_intelligence_systems_to_perform_tasks_that_ordinarily_require_human_intelligence"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:text="@string/data_science"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/colorMultiSelectHighlight"
+    tools:context=".CourseActivity2">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/header"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/html1"
+                    android:layout_width="334dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/html" />
+
+                <TextView
+                    android:id="@+id/html_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/header1"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/css1"
+                    android:layout_width="334dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/css" />
+
+                <TextView
+                    android:id="@+id/css_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/header2"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/js1"
+                    android:layout_width="350dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/js" />
+
+                <TextView
+                    android:id="@+id/js_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/header3"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/app1"
+                    android:layout_width="350dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/app" />
+
+                <TextView
+                    android:id="@+id/app_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/header4"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/adaptive1"
+                    android:layout_width="350dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/adaptive"/>
+
+                <TextView
+                    android:id="@+id/adaptive_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/header5"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/flutter1"
+                    android:layout_width="350dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/flutter"/>
+
+                <TextView
+                    android:id="@+id/flutter_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header7"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/statistical1"
+                    android:layout_width="334dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/statistical" />
+
+                <TextView
+                    android:id="@+id/statistical_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header6"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/analysis1"
+                    android:layout_width="334dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/analysis" />
+
+                <TextView
+                    android:id="@+id/analysis_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/header8"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/machine1"
+                    android:layout_width="334dp"
+                    android:layout_height="209dp"
+                    android:src="@drawable/machine" />
+
+                <TextView
+                    android:id="@+id/machine_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAlignment="textStart"
+                    android:justificationMode="inter_word"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
